@@ -1,0 +1,19 @@
+     /* Grid */
+     .content{
+        display: grid;
+        background: mistyrose;
+        padding: 30px;
+        text-align: left;
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+        font-size: 1em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: saddlebrown;
+
+      }
+    div{
+      background: rosybrown;
+      padding: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: saddlebrown;
+    }
