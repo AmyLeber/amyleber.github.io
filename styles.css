@@ -1,19 +1,41 @@
-     /* Grid */
-     .content{
-        display: grid;
-        background: mistyrose;
-        padding: 30px;
-        text-align: left;
-        grid-template-rows: 1fr 2fr;
-        grid-template-columns: 1fr 2fr;
-        font-size: 1em;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: saddlebrown;
+body {
+  margin: 30px;
+  font-family: 'Sulphur Point', sans-serif;
+}
 
-      }
-    div{
-      background: rosybrown;
-      padding: 30px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: saddlebrown;
-    }
+.bio {
+  grid-area: bio;
+}
+
+.photo {
+  grid-area: photo;
+}
+
+.wrapper {
+  display: grid;
+  background-color: mistyrose;
+  padding: 30px;
+  text-align: left;
+  grid-template-rows: 250px 120px 120px;
+}
+
+.navbar {
+  background: rosybrown;
+  padding: 30px;
+  font-family: 'Rock Salt', cursive;
+  font-size: larger;
+  color: saddlebrown;
+}
+
+.s1 {
+  
+  font size: 2;
+}
+
+.bio {
+  font-size: 1.5;
+}
+
+.footer {
+  background: ivory;
+}
