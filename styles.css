@@ -16,7 +16,7 @@ body {
   background-color: mistyrose;
   padding: 30px;
   text-align: left;
-  grid-template-rows: 315px 120px 120px;
+  grid-template-rows: 315px 130px 130px;
   grid-template-areas: 
     'photo video video'
     'bio bio bio';
@@ -30,9 +30,18 @@ body {
   color: saddlebrown;
 }
 
+.video {
+  padding: 5px
+}
+
 .s1 {
-  
   font size: 2;
+}
+
+.contact {
+  margin-top: 10px;
+  font-family: 'Rock Salt', cursive;
+  font-size: medium;
 }
 
 .bio {
