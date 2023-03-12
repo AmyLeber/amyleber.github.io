@@ -16,7 +16,10 @@ body {
   background-color: mistyrose;
   padding: 30px;
   text-align: left;
-  grid-template-rows: 250px 120px 120px;
+  grid-template-rows: 315px 120px 120px;
+  grid-template-areas: 
+    'photo video video'
+    'bio bio bio';
 }
 
 .navbar {
